@@ -238,7 +238,7 @@
 
     <section class="products">
 
-        <h3>Products</h3>
+        <h3>Product</h3>
 
 
         <table>
