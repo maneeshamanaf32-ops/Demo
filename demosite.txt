@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fashion Hub</title>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        /* Header */
+
+        header {
+            width: 100%;
+            height: 90px;
+            background-color: brown;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* Logo */
+
+        .logo {
+            width: 25%;
+            color: white;
+            font-size: 30px;
+            font-family: Impact;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        /* Navigation */
+
+        .navigation {
+            width: 50%;
+
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .navigation a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navigation a:hover {
+            text-decoration: underline;
+        }
+
+        /* Social Icons */
+
+        .social {
+            width: 25%;
+
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social a {
+            color: white;
+            font-size: 25px;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+
+        .hero {
+            width: 100%;
+            height: 200px;
+            background-color: #f2f2f2;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            color: gray;
+            font-size: 18px;
+        }
+
+        /* Products */
+
+        .products {
+            padding: 25px;
+        }
+
+        .products h3 {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        /* Product Table */
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td {
+            width: 25%;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        td img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        td h4 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        td b {
+            font-size: 17px;
+        }
+
+        /* Buy Button */
+
+        button {
+            background-color: brown;
+            color: white;
+            border: none;
+
+            padding: 10px 25px;
+
+            font-size: 15px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background-color: #6b1f1f;
+        }
+
+        /* Footer */
+
+        footer {
+            width: 100%;
+            height: 70px;
+            background-color: brown;
+            color: white;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            margin-top: 30px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <div class="logo">
+            Fashion Hub
+        </div>
+
+
+        <div class="navigation">
+
+            <a href="index.html">Home</a>
+            <a href="men.html">Men</a>
+            <a href="women.html">Women</a>
+            <a href="kids.html">Kids</a>
+            <a href="contact.html">Contact Us</a>
+
+        </div>
+
+
+        <div class="social">
+
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <h2>New Fashion Collection</h2>
+
+        <p>Upgrade your style today</p>
+
+    </section>
+
+
+    <!-- Products Section -->
+
+    <section class="products">
+
+        <h3>Products</h3>
+
+
+        <table>
+
+            <tr>
+
+                <!-- Product 1 -->
+
+                <td>
+
+                    <img src="C:\Users\manee\OneDrive\Pictures\dress2.jpg"
+                        alt="Dress">
+
+                    <h4>Dress</h4>
+
+                    <b>₹799</b>
+
+                    <br><br>
+
+                    <button>Buy Now</button>
+
+                </td>
+
+
+                <!-- Product 2 -->
+
+                <td>
+
+                    <img src="C:\Users\manee\OneDrive\Pictures\dress3.jpg"
+                        alt="Formals">
+
+                    <h4>Formals</h4>
+
+                    <b>₹999</b>
+
+                    <br><br>
+
+                    <button>Buy Now</button>
+
+                </td>
+
+
+                <!-- Product 3 -->
+
+                <td>
+
+                    <img src="C:\Users\manee\OneDrive\Pictures\dress4.jpeg"
+                        alt="Lehenga">
+
+                    <h4>Lehenga</h4>
+
+                    <b>₹699</b>
+
+                    <br><br>
+
+                    <button>Buy Now</button>
+
+                </td>
+
+
+                <!-- Product 4 -->
+
+                <td>
+
+                    <img src="C:\Users\manee\OneDrive\Pictures\dress6.jpg"
+                        alt="Jacket">
+
+                    <h4>Jacket</h4>
+
+                    <b>₹899</b>
+
+                    <br><br>
+
+                    <button>Buy Now</button>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Fashion Hub | Contact: fashionhub@gmail.com
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
