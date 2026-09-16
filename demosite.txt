@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Fashion Hub</title>
+    <title>Fashion Hubs</title>
 
     <!-- Font Awesome CDN -->
     <link rel="stylesheet"
